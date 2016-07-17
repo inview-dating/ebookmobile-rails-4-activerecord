@@ -11,7 +11,7 @@ RSpec.describe AuthorsController, type: :controller do
 
   describe "GET #create" do
     it "returns http success" do
-      get :create
+      post :create, { author: { first_name: "Ernest", last_name: "Hemingway" } }
       expect(response).to have_http_status(:success)
     end
   end
