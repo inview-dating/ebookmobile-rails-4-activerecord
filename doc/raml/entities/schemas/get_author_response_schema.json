@@ -8,11 +8,11 @@
     "first_name": { "type": "string" },
     "last_name": { "type": "string" },
     "genre": { "type": [ "string", "null" ] },
-    "birth_year": { 
+    "year_of_birth": { 
       "type": [ "integer", "null" ],
       "maximum": 2010
     },
-    "death_year": {
+    "year_of_death": {
       "type": [ "integer", "null" ],
       "maximum": 2016
     },

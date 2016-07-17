@@ -11,11 +11,11 @@
         "first_name": { "type": "string" },
         "last_name": { "type": "string" },
         "genre": { "type": "string" },
-        "birth_year": {
+        "year_of_birth": {
           "type": "integer",
           "maximum": 2010
         },
-        "death_year": {
+        "year_of_death": {
           "type": "integer",
           "maximum": 2016
         }
