@@ -3,4 +3,10 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+unless ENV["RAILS_ENV"] == "production"
+  require "rambo"
+
+  Rambo::Rake::Task.new
+end
+
 EbookmobileRails4Activerecord::Application.load_tasks
